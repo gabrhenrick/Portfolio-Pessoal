@@ -6,7 +6,7 @@
 *{
   padding: 0;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Jersey M54;
 }
 
 /* Estilização do cabeçalho/navbar */
@@ -17,10 +17,9 @@ header{
   width: 100%;
   z-index: 1000;
   display: flex;
-  background-color: #323232;
+  background-color: #1E3266;
   height: 8vh;
   align-items: center;
-  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
 #logoMarca{
@@ -65,23 +64,24 @@ header{
   display: inline-flex;
   text-decoration: none;
   font-family: Jersey M54;
-  color: #8d8d8d;
+  color: #4880e2;
   padding: 0;
 }
 .hiperLinks:hover{
-  color: rgb(0, 255, 34);
+  color: #74b1fc;
 }
 
 /* Conteúdo da página principal */
 .homepage{
-  height: 720px;
-  background-color: #323232;
   z-index: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  font-family: Jet Brains Mono;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='auto' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1081%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='%231e3266'%3e%3c/rect%3e%3cpath d='M2016 1080L0 1080 L0 717.76Q31.84 653.6%2c 96 685.43Q170.93 664.36%2c 192 739.29Q249.46 700.75%2c 288 758.2Q366.62 740.82%2c 384 819.43Q384.75 724.18%2c 480 724.94Q543.67 628.61%2c 640 692.28Q722.2 678.48%2c 736 760.68Q831.23 695.91%2c 896 791.14Q900.54 699.68%2c 992 704.22Q1060.21 612.43%2c 1152 680.64Q1268.4 637.04%2c 1312 753.44Q1344.35 689.79%2c 1408 722.14Q1477.35 631.49%2c 1568 700.84Q1658.89 695.74%2c 1664 786.63Q1675.89 702.52%2c 1760 714.41Q1802.88 661.28%2c 1856 704.16Q1982.49 670.65%2c 2016 797.15z' fill='%23182f5d'%3e%3c/path%3e%3cpath d='M1984 1080L0 1080 L0 895.51Q2.96 802.47%2c 96 805.43Q132.9 746.33%2c 192 783.23Q266.5 761.74%2c 288 836.24Q342.46 794.7%2c 384 849.17Q430 735.16%2c 544 781.16Q614.45 755.61%2c 640 826.06Q734.44 760.5%2c 800 854.94Q861.3 820.25%2c 896 881.55Q948.42 773.97%2c 1056 826.39Q1172.14 782.53%2c 1216 898.67Q1272.55 795.22%2c 1376 851.77Q1438.7 754.47%2c 1536 817.18Q1664.01 785.18%2c 1696 913.19Q1733.86 855.05%2c 1792 892.9Q1830.81 835.71%2c 1888 874.52Q1889.92 780.44%2c 1984 782.36z' fill='%2325467d'%3e%3c/path%3e%3cpath d='M2016 1080L0 1080 L0 930.51Q116.04 886.55%2c 160 1002.58Q181.26 863.84%2c 320 885.1Q413.47 818.57%2c 480 912.04Q537.27 873.31%2c 576 930.57Q662.88 921.45%2c 672 1008.32Q675.21 915.53%2c 768 918.73Q803 857.74%2c 864 892.74Q944.47 877.21%2c 960 957.68Q1026.5 864.18%2c 1120 930.68Q1149.77 864.45%2c 1216 894.23Q1324.93 843.16%2c 1376 952.09Q1388.25 868.34%2c 1472 880.58Q1529.13 841.71%2c 1568 898.84Q1656.28 827.13%2c 1728 915.41Q1807.2 898.62%2c 1824 977.82Q1835.55 893.37%2c 1920 904.92Q1973.18 862.1%2c 2016 915.28z' fill='%23356cb1'%3e%3c/path%3e%3cpath d='M2016 1080L0 1080 L0 1083.19Q92.32 1015.51%2c 160 1107.84Q184.65 972.49%2c 320 997.14Q373.05 954.19%2c 416 1007.24Q483.29 914.53%2c 576 981.82Q643.57 953.39%2c 672 1020.96Q752.05 1005.01%2c 768 1085.07Q801 1022.07%2c 864 1055.07Q975.67 1006.74%2c 1024 1118.41Q1079.28 1013.69%2c 1184 1068.97Q1280.41 1005.38%2c 1344 1101.8Q1353.72 1015.52%2c 1440 1025.24Q1531.61 956.85%2c 1600 1048.46Q1621.78 974.24%2c 1696 996.02Q1791.7 931.72%2c 1856 1027.41Q1959.77 971.18%2c 2016 1074.94z' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1081'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .container{
@@ -104,7 +104,7 @@ header{
 }
 
 .dinamico li{
-  color: rgb(0, 255, 34);
+  color: #74b1fc;
   list-style: none;
   font-size: 60px;
   font-weight: 500;
@@ -126,9 +126,9 @@ header{
   width: 100%;
   height: 100%;
   left: 0;
-  border-left: 2px solid rgb(0, 255, 34);
+  border-left: 2px solid #74b1fc;
   animation: typing 1.5s steps(10) infinite;
-  background: #323232;
+  background: #1E3266;
 }
 
 .dinamico li span{
@@ -140,6 +140,11 @@ header{
     left: 100%;
     margin: 0 -35px 0 35px;
   }
+}
+
+/* Projetos */
+.projetos{
+  height: 720px;
 }
 
 /* Rodapé da landing page */
