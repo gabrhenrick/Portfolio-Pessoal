@@ -16,14 +16,30 @@
       <!-- Barra de Navegação -->
       <nav class="navbar">
         <ul class="listaNavegacao">
-          <li class="list"><a href="../index.html"    class="hiperLinks">HOME      </a></li>
-          <li class="list"><a href="###"              class="hiperLinks">PORTFOLIO </a></li>
-          <li class="list"><a href="###"              class="hiperLinks">PROJETOS  </a></li>
-          <li class="list"><a href="cursos.html"  class="hiperLinks">CURSOS    </a></li>
-          <li class="list"><a href="contato.html" class="hiperLinks">CONTATO   </a></li>
+          <li class="list"><a href="../index.html" class="hiperLinks">HOME</a></li>
+          <li class="list"><a href="../index.html/#portfolio" class="hiperLinks">PORTFOLIO</a></li>
+          <li class="list"><a href="../index.html/#projetos" class="hiperLinks">PROJETOS</a></li>
+          <li class="list"><a href="cursos.html" class="hiperLinks">CURSOS</a></li>
+          <li class="list"><a href="contato.html" class="hiperLinks">CONTATO</a></li>
         </ul>
       </nav>
   </header>
-  <h1>CONTATO</h1>
+  <main>
+    <div class="formularioContato">
+      <label for="nome">Nome:</label>
+      <input type="text" name="name" id="name" placeholder="Nome Completo*" required>
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="Email*">
+
+      <label for="telefone">Telefone:</label>
+      <input type="number" name="number" id="number" pattern="([0-9]{2}) [0-9]{5}-[0-9]{4}" placeholder="Digite o telefone*">
+
+      <label for="texto">Assunto:</label>
+      <input type="text" name="text" id="text" placeholder="Assunto...">
+
+      <button type="submit">Enviar Mensagem</button>
+    </div>
+  </main>
   </body>
 </html>
