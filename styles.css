@@ -25,6 +25,7 @@ header{
   background-color: transparent;
   height: 8vh;
   align-items: center;
+  user-select: none;
 }
 
 #logoMarca{
@@ -36,7 +37,6 @@ header{
   color: #fff;
   width: 30%;
   justify-content: center;
-  user-select: none;
 }
 
 .navbar{
@@ -79,6 +79,7 @@ header{
 
 /* Conteúdo da página principal */
 .homepage{
+  user-select: none;
   z-index: 0;
   display: flex;
   flex-direction: column;
@@ -94,7 +95,6 @@ header{
 .container{
   display: inline-flex;
   align-items: center;
-  user-select: none;
 }
 
 .container .estatico{
@@ -237,6 +237,7 @@ header{
 
 /* Portfolio */
 .portfolio{
+  user-select: none;
   display: flex;
   height: 720px;
   align-items: center;
@@ -244,11 +245,13 @@ header{
 
 /* Projetos */
 .projetos{
+  user-select: none;
   height: 720px;
 }
 
 /* Rodapé da landing page */
 footer{
+  user-select: none;
   width: 100%;
   display: flex;
   justify-content: center;
