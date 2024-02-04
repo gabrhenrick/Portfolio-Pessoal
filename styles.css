@@ -36,7 +36,7 @@ header{
   color: #fff;
   width: 30%;
   justify-content: center;
-  pointer-events: none;
+  user-select: none;
 }
 
 .navbar{
@@ -94,7 +94,7 @@ header{
 .container{
   display: inline-flex;
   align-items: center;
-  pointer-events: none;
+  user-select: none;
 }
 
 .container .estatico{
